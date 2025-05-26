@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Formulario from "./components/Formulario";
 import ListaCita from "./components/ListaCita";
 import { useState, useEffect } from "react";
+import "./styles/App.css";
 
 function App() {
   const [citas, setCitas] = useState([]);
